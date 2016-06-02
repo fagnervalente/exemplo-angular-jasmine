@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jasmine test - Angular Controller with Service Call's</title>
+</head>
+<body ng-app="myApp">
+	<h1>App</h1>
+	<div ng-controller="MainCtrl">
+		<h3>{{ title }}</h3>
+		<ul>
+			<li ng-repeat="estado in estados">{{estado}}</li>
+		</ul>
+	</div>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

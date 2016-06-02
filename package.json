@@ -1,0 +1,36 @@
+{
+  "name": "exemplo-angular-jasmine",
+  "version": "1.0.0",
+  "description": "Um POC de como fazer testes em uma controller com chamadas de services no Angular com Jasmine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fagnervalente/exemplo-angular-jasmine.git"
+  },
+  "keywords": [
+    "angularjs",
+    "jasminejs"
+  ],
+  "author": "Fagner Valente",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fagnervalente/exemplo-angular-jasmine/issues"
+  },
+  "homepage": "https://github.com/fagnervalente/exemplo-angular-jasmine#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-watch": "^4.3.6",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

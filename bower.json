@@ -1,0 +1,28 @@
+{
+  "name": "exemplo-angular-jasmine",
+  "description": "Um POC de como fazer testes em uma controller com chamadas de services no Angular com Jasmine",
+  "main": "app.js",
+  "authors": [
+    "Fagner Valente"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angularjs",
+    "jasminejs"
+  ],
+  "homepage": "https://github.com/fagnervalente/exemplo-angular-jasmine",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.6",
+    "angular-touch": "^1.5.5",
+    "angular-mocks": "^1.5.5",
+    "jasmine-core": "jasmine#^2.4.1",
+    "requirejs": "^2.2.0"
+  }
+}

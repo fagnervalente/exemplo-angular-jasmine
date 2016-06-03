@@ -20,8 +20,8 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/jasmine-core/lib/jasmine-core/jasmine.js',
-      'bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js',
-      'bower_components/jasmine-core/lib/jasmine-core/boot.js',
+      //'bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js',
+      //'bower_components/jasmine-core/lib/jasmine-core/boot.js',
       'app.js',
       {pattern: '*.spec.js', included: true}
     ],
